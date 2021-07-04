@@ -85,7 +85,7 @@ class Home extends Component {
         this.setState({
             hours: 0,
             minutes: 0,
-            seconds: 10
+            seconds: 60
         });
         this.hoursInput.current.value = 0;
         this.minutesInput.current.value = 0;
